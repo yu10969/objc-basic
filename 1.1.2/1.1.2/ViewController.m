@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  1.1.1
+//  1.1.2
 //
-//  Created by B015 on 2018/02/19.
+//  Created by B015 on 2018/02/22.
 //  Copyright © 2018年 B015. All rights reserved.
 //
 
@@ -17,25 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSArray *arr = [NSArray arrayWithObjects:@"大阪",@"名古屋",@"東京", nil];
     
-    NSString *a = @"Hello";
+    NSDictionary *dic = @{@"key": @"default"};
     
-    NSNumber *num = [NSNumber numberWithInt:30];
+    NSLog(@"%@",arr[1]);
     
-    BOOL b = YES;
+    NSLog(@"%@",dic);
     
-    NSInteger c = 3;
-    
-    NSLog(@"%@",a);
-    
-    NSLog(@"%d",b);
-    
-    NSLog(@"%ld",c);
-    
-    NSLog([num description]);
-
-    
-
 }
 
 
@@ -45,15 +34,4 @@
 }
 
 
-
-
 @end
-
-
-
-
-
-
-
-
-

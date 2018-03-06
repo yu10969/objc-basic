@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  1.1.1
+//  1.1.4
 //
-//  Created by B015 on 2018/02/19.
+//  Created by B015 on 2018/02/28.
 //  Copyright © 2018年 B015. All rights reserved.
 //
 
@@ -18,24 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSString *a = @"Hello";
     
-    NSNumber *num = [NSNumber numberWithInt:30];
-    
-    BOOL b = YES;
-    
-    NSInteger c = 3;
-    
-    NSLog(@"%@",a);
-    
-    NSLog(@"%d",b);
-    
-    NSLog(@"%ld",c);
-    
-    NSLog([num description]);
-
-    
-
 }
 
 
@@ -45,15 +28,4 @@
 }
 
 
-
-
 @end
-
-
-
-
-
-
-
-
-
